@@ -1,0 +1,21 @@
+
+  
+  .logostyle{
+    width:90px;
+    margin: 0.5rem;
+    border-radius: 10rem;
+  }
+  
+ 
+ .mr-auto :hover{
+background-color: pink;
+padding-right: 10rem;
+
+ }
+ .menu{
+  display: flex;
+  align-content: center;
+  align-items: center;
+ }
+
+  

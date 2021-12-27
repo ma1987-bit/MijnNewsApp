@@ -1,0 +1,39 @@
+
+.container{
+display: flex;
+flex-direction: column;
+margin: 5rem;
+padding: auto;
+background-image: url(https://cdn.pixabay.com/photo/2019/06/14/06/09/utah-4272944_960_720.jpg);
+
+
+}
+h2{
+    align-items: center;
+    background-color: rgb(119, 240, 119);
+    border-radius: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2:hover{
+background-color: rgb(156, 102, 194);
+color: lavenderblush;
+cursor: pointer;
+}
+h4{
+margin-top: 2rem;
+margin-bottom: 2rem;
+
+}
+ul{
+font-size: large;
+margin: 2rem;
+}
+li{
+    color: white;
+}
+p{
+font-size: large;
+margin: 2rem;
+color: black;
+}
+
