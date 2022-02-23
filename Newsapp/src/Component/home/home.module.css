@@ -1,0 +1,81 @@
+.showcase {
+ 
+  background: url(https://images.pexels.com/photos/2440079/pexels-photo-2440079.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1500);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  color: whitesmoke;
+  padding: 30px;
+  
+}
+.homebody {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-color: rgb(216, 27, 153);
+  border-style: bold;
+  width: 100%;
+}
+.cardDark {
+  background-color: black;
+}
+input[type=text] {
+ width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 50px solid rgb(212, 16, 114);
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 50px;
+  background-color: grey;
+color: rgb(86, 233, 50);
+}
+::placeholder{
+  color:rgb(183, 202, 9);
+}
+
+input[type=submit] {
+  width:20%;
+  background-color: #af744c;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 50px;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .zoek {
+    display: flex;
+   padding-bottom: 20px;
+   
+  }
+  .zoektext{
+    font-size: 18px;
+  }
+}

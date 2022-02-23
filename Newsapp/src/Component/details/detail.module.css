@@ -1,0 +1,22 @@
+.container{
+margin: 20px;
+padding: 40px;
+padding-right: 25px;
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 60rem;
+
+}
+img{
+    align-content: center;
+    margin-top: 5px;
+    
+}
+.cardDark{
+    background-color: rgb(221, 158, 158);
+    color: rgb(214, 174, 113);
+}
+.dark{
+background-color: rgb(63, 66, 62);
+}
