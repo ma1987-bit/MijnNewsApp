@@ -15,7 +15,7 @@ export const SerachForm = ({ serachText }: any) => {
     setText(event.target.value);
   };
   return (
-    
+    <div className={styles.formdesign}>
     <form onSubmit={handelSubmit}>
         <input  
           onChange={handleChange}
@@ -25,6 +25,6 @@ export const SerachForm = ({ serachText }: any) => {
         />
         <input type="submit" value="Submit"  />
       </form>
-    
+      </div>
   );
 };
